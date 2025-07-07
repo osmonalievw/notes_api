@@ -2,7 +2,8 @@ import { Edit, FileText, Plus, Save, Trash2, X } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import './App.css'
 
-const API_BASE = 'http://127.0.0.1:5000'; // Adjust this to your Flask API URL
+// This should be the address of the running API
+const API_BASE = 'http://127.0.0.1:5000';
 
 export default function NotesApp() {
   const [notes, setNotes] = useState([]);

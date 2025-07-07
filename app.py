@@ -109,12 +109,12 @@ def create_app():
 def main():
     init_db()
     app = create_app()
-    print("🚀 API запущен!")
-    print("📝 Доступные методы:")
-    print("   GET    /notes      - Все заметки")
-    print("   POST   /notes      - Создать заметку")
-    print("   GET    /notes/1    - Получить заметку #1")
-    print("   DELETE /notes/1    - Удалить заметку #1")
+    print("🚀 API is running!")
+    print("📝 Available endpoints:")
+    print("   GET    /notes      - Get all notes")
+    print("   POST   /notes      - Create a new note")
+    print("   GET    /notes/1    - Get note #1")
+    print("   DELETE /notes/1    - Delete note #1")
     app.run(debug=True)
 
 
